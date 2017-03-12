@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  width: 301px;
+  height: 300px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+.field__box {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  height: 30px;
+  width: 30px;
+}
+
+.person {
+  background: red !important;
+}
+
+.green {
+  background: green;
+}
